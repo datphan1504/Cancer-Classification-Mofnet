@@ -1,0 +1,27 @@
+# Ignore large raw CSV datasets, graph binaries, and checkpoints inside data/
+data/Cancer-classification-dataset/BRCA/
+data/Cancer-classification-dataset/COAD/
+data/Cancer-classification-dataset/GBM/
+data/Cancer-classification-dataset/LGG/
+data/Cancer-classification-dataset/OV/
+data/Cancer-classification-dataset/checkpoints/
+data/Cancer-classification-dataset/*.pt
+
+# Archives & large binaries
+*.zip
+*.tar*
+*.7z
+*.gz
+*.bz2
+*.pt
+*.pth
+*.pdf
+
+# Python & IDE cache
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+Classification/
