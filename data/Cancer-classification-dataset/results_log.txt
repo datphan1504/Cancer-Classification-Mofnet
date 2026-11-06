@@ -1,0 +1,810 @@
+
+=======================================================
+DEEP LEARNING MODEL - Cancer: BRCA
+Accuracy : 0.8020
+Macro-F1 : 0.7456
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(353)       0.87      0.82      0.84       106
+  Class1(42)       0.77      0.77      0.77        13
+ Class2(132)       0.61      0.70      0.65        40
+  Class3(31)       0.67      0.44      0.53         9
+ Class4(113)       0.89      0.97      0.93        34
+
+    accuracy                           0.80       202
+   macro avg       0.76      0.74      0.75       202
+weighted avg       0.81      0.80      0.80       202
+=======================================================
+
+=======================================================
+BASELINE MODELS - Cancer: BRCA
+=======================================================
+Model: SVM
+Accuracy : 0.8069
+Macro-F1 : 0.7817
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(353)       0.94      0.77      0.85       106
+  Class1(42)       0.86      0.46      0.60        13
+ Class2(132)       0.54      0.85      0.66        40
+  Class3(31)       0.80      0.89      0.84         9
+ Class4(113)       0.94      0.97      0.96        34
+
+    accuracy                           0.81       202
+   macro avg       0.82      0.79      0.78       202
+weighted avg       0.85      0.81      0.81       202
+-------------------------------------------------------
+Model: KNN
+Accuracy : 0.7376
+Macro-F1 : 0.5757
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(353)       0.70      1.00      0.82       106
+  Class1(42)       0.60      0.23      0.33        13
+ Class2(132)       0.80      0.20      0.32        40
+  Class3(31)       0.57      0.44      0.50         9
+ Class4(113)       1.00      0.82      0.90        34
+
+    accuracy                           0.74       202
+   macro avg       0.73      0.54      0.58       202
+weighted avg       0.76      0.74      0.69       202
+-------------------------------------------------------
+Model: RandomForest
+Accuracy : 0.8069
+Macro-F1 : 0.6530
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(353)       0.78      0.96      0.86       106
+  Class1(42)       1.00      0.31      0.47        13
+ Class2(132)       0.72      0.53      0.61        40
+  Class3(31)       1.00      0.22      0.36         9
+ Class4(113)       0.92      1.00      0.96        34
+
+    accuracy                           0.81       202
+   macro avg       0.89      0.60      0.65       202
+weighted avg       0.82      0.81      0.78       202
+-------------------------------------------------------
+Model: XGBoost
+Accuracy : 0.8317
+Macro-F1 : 0.7286
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(353)       0.84      0.92      0.87       106
+  Class1(42)       0.77      0.77      0.77        13
+ Class2(132)       0.74      0.65      0.69        40
+  Class3(31)       1.00      0.22      0.36         9
+ Class4(113)       0.92      0.97      0.94        34
+
+    accuracy                           0.83       202
+   macro avg       0.85      0.71      0.73       202
+weighted avg       0.83      0.83      0.82       202
+-------------------------------------------------------
+
+=======================================================
+DEEP LEARNING MODEL - Cancer: COAD
+Accuracy : 0.8701
+Macro-F1 : 0.8112
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(174)       0.94      0.90      0.92        52
+  Class1(48)       1.00      0.87      0.93        15
+  Class2(34)       0.50      0.70      0.58        10
+
+    accuracy                           0.87        77
+   macro avg       0.81      0.82      0.81        77
+weighted avg       0.89      0.87      0.88        77
+=======================================================
+
+=======================================================
+BASELINE MODELS - Cancer: COAD
+=======================================================
+Model: SVM
+Accuracy : 0.8961
+Macro-F1 : 0.8326
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(174)       0.91      0.96      0.93        52
+  Class1(48)       0.93      0.87      0.90        15
+  Class2(34)       0.75      0.60      0.67        10
+
+    accuracy                           0.90        77
+   macro avg       0.86      0.81      0.83        77
+weighted avg       0.89      0.90      0.89        77
+-------------------------------------------------------
+Model: KNN
+Accuracy : 0.8442
+Macro-F1 : 0.7314
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(174)       0.89      0.94      0.92        52
+  Class1(48)       0.92      0.80      0.86        15
+  Class2(34)       0.44      0.40      0.42        10
+
+    accuracy                           0.84        77
+   macro avg       0.75      0.71      0.73        77
+weighted avg       0.84      0.84      0.84        77
+-------------------------------------------------------
+Model: RandomForest
+Accuracy : 0.8831
+Macro-F1 : 0.7885
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(174)       0.88      0.98      0.93        52
+  Class1(48)       0.87      0.87      0.87        15
+  Class2(34)       1.00      0.40      0.57        10
+
+    accuracy                           0.88        77
+   macro avg       0.92      0.75      0.79        77
+weighted avg       0.89      0.88      0.87        77
+-------------------------------------------------------
+Model: XGBoost
+Accuracy : 0.8701
+Macro-F1 : 0.7795
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(174)       0.89      0.96      0.93        52
+  Class1(48)       0.92      0.80      0.86        15
+  Class2(34)       0.62      0.50      0.56        10
+
+    accuracy                           0.87        77
+   macro avg       0.81      0.75      0.78        77
+weighted avg       0.86      0.87      0.86        77
+-------------------------------------------------------
+
+=======================================================
+DEEP LEARNING MODEL - Cancer: GBM
+Accuracy : 0.7568
+Macro-F1 : 0.7767
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(61)       0.68      0.79      0.73        19
+  Class1(46)       0.86      0.86      0.86        14
+  Class2(74)       0.77      0.77      0.77        22
+  Class3(20)       1.00      1.00      1.00         6
+  Class4(43)       0.60      0.46      0.52        13
+
+    accuracy                           0.76        74
+   macro avg       0.78      0.78      0.78        74
+weighted avg       0.75      0.76      0.75        74
+=======================================================
+
+=======================================================
+BASELINE MODELS - Cancer: GBM
+=======================================================
+Model: SVM
+Accuracy : 0.6892
+Macro-F1 : 0.6931
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(61)       0.71      0.63      0.67        19
+  Class1(46)       0.68      0.93      0.79        14
+  Class2(74)       0.70      0.73      0.71        22
+  Class3(20)       1.00      0.67      0.80         6
+  Class4(43)       0.55      0.46      0.50        13
+
+    accuracy                           0.69        74
+   macro avg       0.73      0.68      0.69        74
+weighted avg       0.69      0.69      0.68        74
+-------------------------------------------------------
+Model: KNN
+Accuracy : 0.6757
+Macro-F1 : 0.6967
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(61)       0.62      0.79      0.70        19
+  Class1(46)       0.73      0.57      0.64        14
+  Class2(74)       0.70      0.73      0.71        22
+  Class3(20)       1.00      1.00      1.00         6
+  Class4(43)       0.50      0.38      0.43        13
+
+    accuracy                           0.68        74
+   macro avg       0.71      0.69      0.70        74
+weighted avg       0.67      0.68      0.67        74
+-------------------------------------------------------
+Model: RandomForest
+Accuracy : 0.7027
+Macro-F1 : 0.7228
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(61)       0.62      0.79      0.70        19
+  Class1(46)       1.00      0.57      0.73        14
+  Class2(74)       0.67      0.82      0.73        22
+  Class3(20)       1.00      1.00      1.00         6
+  Class4(43)       0.56      0.38      0.45        13
+
+    accuracy                           0.70        74
+   macro avg       0.77      0.71      0.72        74
+weighted avg       0.73      0.70      0.70        74
+-------------------------------------------------------
+Model: XGBoost
+Accuracy : 0.6351
+Macro-F1 : 0.6638
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(61)       0.56      0.79      0.65        19
+  Class1(46)       0.80      0.57      0.67        14
+  Class2(74)       0.64      0.64      0.64        22
+  Class3(20)       1.00      1.00      1.00         6
+  Class4(43)       0.44      0.31      0.36        13
+
+    accuracy                           0.64        74
+   macro avg       0.69      0.66      0.66        74
+weighted avg       0.64      0.64      0.63        74
+-------------------------------------------------------
+
+=======================================================
+DEEP LEARNING MODEL - Cancer: LGG
+Accuracy : 0.9600
+Macro-F1 : 0.9500
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(76)       1.00      1.00      1.00        23
+ Class1(125)       0.95      0.97      0.96        38
+  Class2(46)       0.92      0.86      0.89        14
+
+    accuracy                           0.96        75
+   macro avg       0.96      0.94      0.95        75
+weighted avg       0.96      0.96      0.96        75
+=======================================================
+
+=======================================================
+BASELINE MODELS - Cancer: LGG
+=======================================================
+Model: SVM
+Accuracy : 0.9467
+Macro-F1 : 0.9287
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(76)       1.00      0.91      0.95        23
+ Class1(125)       0.95      1.00      0.97        38
+  Class2(46)       0.86      0.86      0.86        14
+
+    accuracy                           0.95        75
+   macro avg       0.94      0.92      0.93        75
+weighted avg       0.95      0.95      0.95        75
+-------------------------------------------------------
+Model: KNN
+Accuracy : 0.9333
+Macro-F1 : 0.9070
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(76)       1.00      1.00      1.00        23
+ Class1(125)       0.88      1.00      0.94        38
+  Class2(46)       1.00      0.64      0.78        14
+
+    accuracy                           0.93        75
+   macro avg       0.96      0.88      0.91        75
+weighted avg       0.94      0.93      0.93        75
+-------------------------------------------------------
+Model: RandomForest
+Accuracy : 0.9733
+Macro-F1 : 0.9658
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(76)       1.00      1.00      1.00        23
+ Class1(125)       0.95      1.00      0.97        38
+  Class2(46)       1.00      0.86      0.92        14
+
+    accuracy                           0.97        75
+   macro avg       0.98      0.95      0.97        75
+weighted avg       0.97      0.97      0.97        75
+-------------------------------------------------------
+Model: XGBoost
+Accuracy : 0.9733
+Macro-F1 : 0.9718
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(76)       0.96      1.00      0.98        23
+ Class1(125)       0.97      0.97      0.97        38
+  Class2(46)       1.00      0.93      0.96        14
+
+    accuracy                           0.97        75
+   macro avg       0.98      0.97      0.97        75
+weighted avg       0.97      0.97      0.97        75
+-------------------------------------------------------
+
+=======================================================
+DEEP LEARNING MODEL - Cancer: OV
+Accuracy : 0.8605
+Macro-F1 : 0.8586
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(64)       0.79      0.79      0.79        19
+  Class1(79)       0.92      0.92      0.92        24
+  Class2(67)       0.94      0.85      0.89        20
+  Class3(74)       0.80      0.87      0.83        23
+
+    accuracy                           0.86        86
+   macro avg       0.86      0.86      0.86        86
+weighted avg       0.86      0.86      0.86        86
+=======================================================
+
+=======================================================
+BASELINE MODELS - Cancer: OV
+=======================================================
+Model: SVM
+Accuracy : 0.8023
+Macro-F1 : 0.7986
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(64)       0.72      0.68      0.70        19
+  Class1(79)       0.83      0.83      0.83        24
+  Class2(67)       0.89      0.80      0.84        20
+  Class3(74)       0.77      0.87      0.82        23
+
+    accuracy                           0.80        86
+   macro avg       0.80      0.80      0.80        86
+weighted avg       0.80      0.80      0.80        86
+-------------------------------------------------------
+Model: KNN
+Accuracy : 0.6977
+Macro-F1 : 0.6919
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(64)       0.61      0.58      0.59        19
+  Class1(79)       0.74      0.58      0.65        24
+  Class2(67)       0.63      0.95      0.76        20
+  Class3(74)       0.84      0.70      0.76        23
+
+    accuracy                           0.70        86
+   macro avg       0.71      0.70      0.69        86
+weighted avg       0.71      0.70      0.69        86
+-------------------------------------------------------
+Model: RandomForest
+Accuracy : 0.8721
+Macro-F1 : 0.8660
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(64)       0.74      0.74      0.74        19
+  Class1(79)       1.00      0.79      0.88        24
+  Class2(67)       0.86      0.95      0.90        20
+  Class3(74)       0.88      1.00      0.94        23
+
+    accuracy                           0.87        86
+   macro avg       0.87      0.87      0.87        86
+weighted avg       0.88      0.87      0.87        86
+-------------------------------------------------------
+Model: XGBoost
+Accuracy : 0.8372
+Macro-F1 : 0.8353
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(64)       0.79      0.79      0.79        19
+  Class1(79)       0.90      0.79      0.84        24
+  Class2(67)       0.85      0.85      0.85        20
+  Class3(74)       0.81      0.91      0.86        23
+
+    accuracy                           0.84        86
+   macro avg       0.84      0.84      0.84        86
+weighted avg       0.84      0.84      0.84        86
+-------------------------------------------------------
+
+=======================================================
+DEEP LEARNING MODEL - Cancer: BRCA
+Accuracy : 0.8267
+Macro-F1 : 0.7823
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(353)       0.93      0.81      0.87       106
+  Class1(42)       0.77      0.77      0.77        13
+ Class2(132)       0.65      0.82      0.73        40
+  Class3(31)       0.50      0.78      0.61         9
+ Class4(113)       0.97      0.91      0.94        34
+
+    accuracy                           0.83       202
+   macro avg       0.76      0.82      0.78       202
+weighted avg       0.85      0.83      0.83       202
+=======================================================
+
+=======================================================
+BASELINE MODELS - Cancer: BRCA
+=======================================================
+Model: SVM
+Accuracy : 0.8069
+Macro-F1 : 0.7817
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(353)       0.94      0.77      0.85       106
+  Class1(42)       0.86      0.46      0.60        13
+ Class2(132)       0.54      0.85      0.66        40
+  Class3(31)       0.80      0.89      0.84         9
+ Class4(113)       0.94      0.97      0.96        34
+
+    accuracy                           0.81       202
+   macro avg       0.82      0.79      0.78       202
+weighted avg       0.85      0.81      0.81       202
+-------------------------------------------------------
+Model: KNN
+Accuracy : 0.7376
+Macro-F1 : 0.5757
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(353)       0.70      1.00      0.82       106
+  Class1(42)       0.60      0.23      0.33        13
+ Class2(132)       0.80      0.20      0.32        40
+  Class3(31)       0.57      0.44      0.50         9
+ Class4(113)       1.00      0.82      0.90        34
+
+    accuracy                           0.74       202
+   macro avg       0.73      0.54      0.58       202
+weighted avg       0.76      0.74      0.69       202
+-------------------------------------------------------
+Model: RandomForest
+Accuracy : 0.8069
+Macro-F1 : 0.6530
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(353)       0.78      0.96      0.86       106
+  Class1(42)       1.00      0.31      0.47        13
+ Class2(132)       0.72      0.53      0.61        40
+  Class3(31)       1.00      0.22      0.36         9
+ Class4(113)       0.92      1.00      0.96        34
+
+    accuracy                           0.81       202
+   macro avg       0.89      0.60      0.65       202
+weighted avg       0.82      0.81      0.78       202
+-------------------------------------------------------
+Model: XGBoost
+Accuracy : 0.8317
+Macro-F1 : 0.7286
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(353)       0.84      0.92      0.87       106
+  Class1(42)       0.77      0.77      0.77        13
+ Class2(132)       0.74      0.65      0.69        40
+  Class3(31)       1.00      0.22      0.36         9
+ Class4(113)       0.92      0.97      0.94        34
+
+    accuracy                           0.83       202
+   macro avg       0.85      0.71      0.73       202
+weighted avg       0.83      0.83      0.82       202
+-------------------------------------------------------
+
+=======================================================
+DEEP LEARNING MODEL - Cancer: COAD
+Accuracy : 0.8831
+Macro-F1 : 0.8319
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(174)       0.94      0.90      0.92        52
+  Class1(48)       1.00      0.93      0.97        15
+  Class2(34)       0.54      0.70      0.61        10
+
+    accuracy                           0.88        77
+   macro avg       0.83      0.85      0.83        77
+weighted avg       0.90      0.88      0.89        77
+=======================================================
+
+=======================================================
+BASELINE MODELS - Cancer: COAD
+=======================================================
+Model: SVM
+Accuracy : 0.8961
+Macro-F1 : 0.8326
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(174)       0.91      0.96      0.93        52
+  Class1(48)       0.93      0.87      0.90        15
+  Class2(34)       0.75      0.60      0.67        10
+
+    accuracy                           0.90        77
+   macro avg       0.86      0.81      0.83        77
+weighted avg       0.89      0.90      0.89        77
+-------------------------------------------------------
+Model: KNN
+Accuracy : 0.8442
+Macro-F1 : 0.7314
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(174)       0.89      0.94      0.92        52
+  Class1(48)       0.92      0.80      0.86        15
+  Class2(34)       0.44      0.40      0.42        10
+
+    accuracy                           0.84        77
+   macro avg       0.75      0.71      0.73        77
+weighted avg       0.84      0.84      0.84        77
+-------------------------------------------------------
+Model: RandomForest
+Accuracy : 0.8831
+Macro-F1 : 0.7885
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(174)       0.88      0.98      0.93        52
+  Class1(48)       0.87      0.87      0.87        15
+  Class2(34)       1.00      0.40      0.57        10
+
+    accuracy                           0.88        77
+   macro avg       0.92      0.75      0.79        77
+weighted avg       0.89      0.88      0.87        77
+-------------------------------------------------------
+Model: XGBoost
+Accuracy : 0.8701
+Macro-F1 : 0.7795
+Per-class report:
+              precision    recall  f1-score   support
+
+ Class0(174)       0.89      0.96      0.93        52
+  Class1(48)       0.92      0.80      0.86        15
+  Class2(34)       0.62      0.50      0.56        10
+
+    accuracy                           0.87        77
+   macro avg       0.81      0.75      0.78        77
+weighted avg       0.86      0.87      0.86        77
+-------------------------------------------------------
+
+=======================================================
+DEEP LEARNING MODEL - Cancer: GBM
+Accuracy : 0.8243
+Macro-F1 : 0.8349
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(61)       0.83      0.79      0.81        19
+  Class1(46)       0.92      0.86      0.89        14
+  Class2(74)       0.86      0.82      0.84        22
+  Class3(20)       0.86      1.00      0.92         6
+  Class4(43)       0.67      0.77      0.71        13
+
+    accuracy                           0.82        74
+   macro avg       0.83      0.85      0.83        74
+weighted avg       0.83      0.82      0.83        74
+=======================================================
+
+=======================================================
+BASELINE MODELS - Cancer: GBM
+=======================================================
+Model: SVM
+Accuracy : 0.6892
+Macro-F1 : 0.6931
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(61)       0.71      0.63      0.67        19
+  Class1(46)       0.68      0.93      0.79        14
+  Class2(74)       0.70      0.73      0.71        22
+  Class3(20)       1.00      0.67      0.80         6
+  Class4(43)       0.55      0.46      0.50        13
+
+    accuracy                           0.69        74
+   macro avg       0.73      0.68      0.69        74
+weighted avg       0.69      0.69      0.68        74
+-------------------------------------------------------
+Model: KNN
+Accuracy : 0.6757
+Macro-F1 : 0.6967
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(61)       0.62      0.79      0.70        19
+  Class1(46)       0.73      0.57      0.64        14
+  Class2(74)       0.70      0.73      0.71        22
+  Class3(20)       1.00      1.00      1.00         6
+  Class4(43)       0.50      0.38      0.43        13
+
+    accuracy                           0.68        74
+   macro avg       0.71      0.69      0.70        74
+weighted avg       0.67      0.68      0.67        74
+-------------------------------------------------------
+Model: RandomForest
+Accuracy : 0.7027
+Macro-F1 : 0.7228
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(61)       0.62      0.79      0.70        19
+  Class1(46)       1.00      0.57      0.73        14
+  Class2(74)       0.67      0.82      0.73        22
+  Class3(20)       1.00      1.00      1.00         6
+  Class4(43)       0.56      0.38      0.45        13
+
+    accuracy                           0.70        74
+   macro avg       0.77      0.71      0.72        74
+weighted avg       0.73      0.70      0.70        74
+-------------------------------------------------------
+Model: XGBoost
+Accuracy : 0.6351
+Macro-F1 : 0.6638
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(61)       0.56      0.79      0.65        19
+  Class1(46)       0.80      0.57      0.67        14
+  Class2(74)       0.64      0.64      0.64        22
+  Class3(20)       1.00      1.00      1.00         6
+  Class4(43)       0.44      0.31      0.36        13
+
+    accuracy                           0.64        74
+   macro avg       0.69      0.66      0.66        74
+weighted avg       0.64      0.64      0.63        74
+-------------------------------------------------------
+
+=======================================================
+DEEP LEARNING MODEL - Cancer: LGG
+Accuracy : 0.9600
+Macro-F1 : 0.9471
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(76)       0.96      1.00      0.98        23
+ Class1(125)       0.97      0.97      0.97        38
+  Class2(46)       0.92      0.86      0.89        14
+
+    accuracy                           0.96        75
+   macro avg       0.95      0.94      0.95        75
+weighted avg       0.96      0.96      0.96        75
+=======================================================
+
+=======================================================
+BASELINE MODELS - Cancer: LGG
+=======================================================
+Model: SVM
+Accuracy : 0.9467
+Macro-F1 : 0.9287
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(76)       1.00      0.91      0.95        23
+ Class1(125)       0.95      1.00      0.97        38
+  Class2(46)       0.86      0.86      0.86        14
+
+    accuracy                           0.95        75
+   macro avg       0.94      0.92      0.93        75
+weighted avg       0.95      0.95      0.95        75
+-------------------------------------------------------
+Model: KNN
+Accuracy : 0.9333
+Macro-F1 : 0.9070
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(76)       1.00      1.00      1.00        23
+ Class1(125)       0.88      1.00      0.94        38
+  Class2(46)       1.00      0.64      0.78        14
+
+    accuracy                           0.93        75
+   macro avg       0.96      0.88      0.91        75
+weighted avg       0.94      0.93      0.93        75
+-------------------------------------------------------
+Model: RandomForest
+Accuracy : 0.9733
+Macro-F1 : 0.9658
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(76)       1.00      1.00      1.00        23
+ Class1(125)       0.95      1.00      0.97        38
+  Class2(46)       1.00      0.86      0.92        14
+
+    accuracy                           0.97        75
+   macro avg       0.98      0.95      0.97        75
+weighted avg       0.97      0.97      0.97        75
+-------------------------------------------------------
+Model: XGBoost
+Accuracy : 0.9733
+Macro-F1 : 0.9718
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(76)       0.96      1.00      0.98        23
+ Class1(125)       0.97      0.97      0.97        38
+  Class2(46)       1.00      0.93      0.96        14
+
+    accuracy                           0.97        75
+   macro avg       0.98      0.97      0.97        75
+weighted avg       0.97      0.97      0.97        75
+-------------------------------------------------------
+
+=======================================================
+DEEP LEARNING MODEL - Cancer: OV
+Accuracy : 0.9419
+Macro-F1 : 0.9389
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(64)       1.00      0.84      0.91        19
+  Class1(79)       0.96      1.00      0.98        24
+  Class2(67)       0.95      0.90      0.92        20
+  Class3(74)       0.88      1.00      0.94        23
+
+    accuracy                           0.94        86
+   macro avg       0.95      0.94      0.94        86
+weighted avg       0.95      0.94      0.94        86
+=======================================================
+
+=======================================================
+BASELINE MODELS - Cancer: OV
+=======================================================
+Model: SVM
+Accuracy : 0.8023
+Macro-F1 : 0.7986
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(64)       0.72      0.68      0.70        19
+  Class1(79)       0.83      0.83      0.83        24
+  Class2(67)       0.89      0.80      0.84        20
+  Class3(74)       0.77      0.87      0.82        23
+
+    accuracy                           0.80        86
+   macro avg       0.80      0.80      0.80        86
+weighted avg       0.80      0.80      0.80        86
+-------------------------------------------------------
+Model: KNN
+Accuracy : 0.6977
+Macro-F1 : 0.6919
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(64)       0.61      0.58      0.59        19
+  Class1(79)       0.74      0.58      0.65        24
+  Class2(67)       0.63      0.95      0.76        20
+  Class3(74)       0.84      0.70      0.76        23
+
+    accuracy                           0.70        86
+   macro avg       0.71      0.70      0.69        86
+weighted avg       0.71      0.70      0.69        86
+-------------------------------------------------------
+Model: RandomForest
+Accuracy : 0.8721
+Macro-F1 : 0.8660
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(64)       0.74      0.74      0.74        19
+  Class1(79)       1.00      0.79      0.88        24
+  Class2(67)       0.86      0.95      0.90        20
+  Class3(74)       0.88      1.00      0.94        23
+
+    accuracy                           0.87        86
+   macro avg       0.87      0.87      0.87        86
+weighted avg       0.88      0.87      0.87        86
+-------------------------------------------------------
+Model: XGBoost
+Accuracy : 0.8372
+Macro-F1 : 0.8353
+Per-class report:
+              precision    recall  f1-score   support
+
+  Class0(64)       0.79      0.79      0.79        19
+  Class1(79)       0.90      0.79      0.84        24
+  Class2(67)       0.85      0.85      0.85        20
+  Class3(74)       0.81      0.91      0.86        23
+
+    accuracy                           0.84        86
+   macro avg       0.84      0.84      0.84        86
+weighted avg       0.84      0.84      0.84        86
+-------------------------------------------------------
